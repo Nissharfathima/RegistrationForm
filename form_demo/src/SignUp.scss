@@ -1,0 +1,114 @@
+header {
+    
+}
+
+
+.container{
+    
+    top: -74.17282104492188px;
+left: 402px;
+width: 1205px;
+height: 1081px;
+transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
+//background: transparent linear-gradient(131deg, #4FD8F6 0%, var(--unnamed-color-558afa) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(180deg, #4FD8F6 0%, #558AFA 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 20px 40px #0000004D;
+border-radius: 50px;
+opacity: 0.81;
+margin-top: 151px;
+   
+}
+.childcontainer{
+top: -50.06219482421875px;
+left: 180px;
+width: 1242px;
+height: 1244px;
+transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
+//background: transparent linear-gradient(180deg, #4FD8F6 0%, var(--unnamed-color-558afa) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(134deg, transparent 0%, #558AFA 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 30px 40px #0000004D;
+border-radius: 50px;
+opacity: 1;
+transform: translateY(113px) translateX(77px);
+
+}
+.title{
+    top: 313px;
+    left: 882px;
+    width: 231px;
+    height: 1800px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-44)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 600 44px/58px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    transform: rotate(24deg);
+
+    }
+.items{
+    transform: rotate(25deg);
+}
+.textbox{
+    background-color: inherit;
+    top: 430px;
+    left: 846px;
+    width: 400px;
+    height: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-poppins);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal 600 20px/58px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 100;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 60px;
+    &.email{
+        background: url('./Assets/Icon\ feather-user.svg') right no-repeat;
+    }
+    &.password{
+        background: url('./Assets/Icon\ feather-lock.svg') right no-repeat;
+    }
+    &::placeholder{
+       color: white;
+   }
+}
+
+
+.btn{
+    size: 100px;
+    width: 100px;
+    height: 50px;
+    color:white;
+    border: none;
+    background-color: black;
+    align-self: flex-end;
+
+    &:hover{
+        background-color: white;
+        color:black;
+        display: flex-end;
+    }
+}
+
+.line-textbox{
+    margin: 20px;
+    border:10px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black(25, 145, 133);
+    color: black;
+}
+
+.error{
+    color: red;
+    font-size: 30px;
+    align-items: flex-start;
+}
